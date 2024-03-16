@@ -204,6 +204,13 @@
       ul{
         flex-direction: column;
         padding-left: 0px;
+        margin-top: 3rem;
+        li{
+          @include flex(column, center, center);
+          h4,p{
+            text-align: center;
+          }
+        }
       }
       .info{
        max-width: 95%; 
