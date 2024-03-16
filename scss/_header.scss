@@ -6,6 +6,7 @@ header {
   height: 11.9rem;
   background-color: $purple;
   display: flex;
+  z-index: 2024;
   .container {
     @include flex(row, center, space-between);
   }
@@ -40,8 +41,8 @@ header {
   }
   @include responsive(480px) {
     height: 8rem;
-    .logo{
-        max-width: 140px;
+    .logo {
+      max-width: 140px;
     }
   }
 }
